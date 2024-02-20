@@ -6,7 +6,7 @@
 /*   By: cel-bahr <cel-bahr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 03:13:47 by cel-bahr          #+#    #+#             */
-/*   Updated: 2024/02/15 22:17:58 by cel-bahr         ###   ########.fr       */
+/*   Updated: 2024/02/20 01:49:53 by cel-bahr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <libc.h>
 int ft_printf(const char *format, ...);
-void i_print(va_list arg, char c, int *len);
+int i_print(va_list arg, char c);
 int ft_putchar(char c);
 int i_print_str(const char *s);
 int i_print_num(long nb);
